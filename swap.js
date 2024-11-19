@@ -1,0 +1,11 @@
+let a = 10;
+let b = 20;
+console.log("Number before swapping");
+console.log(a);
+console.log(b);
+a = a + b;
+b = a - b;
+a = a - b;
+console.log("number after swapping");
+console.log(a);
+console.log(b);
