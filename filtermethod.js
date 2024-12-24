@@ -21,4 +21,3 @@ let c = arr2.reduce((value, value1)=>{
     return value * value1
 })
 console.log(c);
-

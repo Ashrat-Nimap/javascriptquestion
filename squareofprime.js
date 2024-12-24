@@ -1,25 +1,22 @@
-function sumofsquareprime(n){
+function sumofsquareprime(n) {
     let sum = 0;
     let num = 2;
     let count = 0;
-
-    while(count < n){
+    while (count < n) {
         let isprime = true;
-        for(let i = 2;i * i <= num;i++){
-            if(num % i === 0){
+        for (let i = 2; i * i <= num; i++) {
+            if (num % i === 0) {
                 isprime = false;
                 break;
             }
-
         }
-        
-        if(isprime){
+        if (isprime) {
             sum += num * num;
             count++;
         }
         num++;
-       }
-       return sum;
+    }
+    return sum;
 }
 
 let n = 4;
