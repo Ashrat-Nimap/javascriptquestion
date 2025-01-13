@@ -10,15 +10,16 @@ function repeatchar(str) {
         }
         else{
             result += str[i] + count;
-            count = 1;
+            count = 1;  
         } 
         if(count > maxcount){
             maxcount = count;
-            maxChar = str[i];
+            maxChar = str[i]; 
         }
     }
     return maxChar;
 }
 
-const str = "ababbbaab";
+const str = "ababbbaaaab";
 console.log(repeatchar(str));
+
