@@ -1,5 +1,4 @@
 function groupAnagram(arr){
-    debugger
     let obj ={};
     for(let word of arr){
         let freq=[];
@@ -10,7 +9,7 @@ function groupAnagram(arr){
         obj[freq] = obj[freq] || [];
         obj[freq].push(word);
     }
-    return Object.values(obj);
+    return Object.values(obj);  
 }
 const arr = ['tea','ate','nat','bat','tab','eat'];
 console.log(groupAnagram(arr));

@@ -16,7 +16,6 @@
             let char = str[i].toLowerCase();
             if(frequency[char] === 1){
                 return char
-
             }
         }
         return null

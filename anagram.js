@@ -30,3 +30,6 @@ const str2 = "world";
 console.log(anagram(str1,str2));
 
 // Time complexity is O(n)
+
+
+

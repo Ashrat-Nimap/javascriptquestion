@@ -1,6 +1,5 @@
 
 function user(obj){
-    debugger
     for(let key in obj){
         if(typeof obj[key] === "object"){
             arr.push(key);
