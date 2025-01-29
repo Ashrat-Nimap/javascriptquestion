@@ -15,5 +15,5 @@ function targetelement(arr,target){
     return arr1;
 }
 const arr = [1,7,4,7,4,9,8,4,2,7,4];
-const target = 4;
+const target = 5;
 console.log(targetelement(arr,target));

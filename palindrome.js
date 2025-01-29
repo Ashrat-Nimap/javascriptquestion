@@ -1,4 +1,5 @@
 function palindromestring(str){
+    str = str.toLowerCase().replace(/[^a-z0-9]/g, "");
     let left = 0;
     let right = str.length - 1;
 
@@ -6,10 +7,11 @@ function palindromestring(str){
         if(str[left] !== str[right]){
             return false;
         }
-        return true
+        left++;
+        right--;
     }
-    left++;
-    right--;
+    return true;
+    
 }
-const str = "radar";
+const str = "race a car";
 console.log(palindromestring(str));
