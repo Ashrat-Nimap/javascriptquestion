@@ -15,10 +15,10 @@
         for(let i = 0;i<str.length;i++){
             let char = str[i].toLowerCase();
             if(frequency[char] === 1){
-                return char
+                return i
             }
         }
-        return null
+        return -1;
     }
 
     const str = "swiss";
