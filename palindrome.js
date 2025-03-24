@@ -11,7 +11,6 @@ function palindromestring(str){
         right--;
     }
     return true;
-    
 }
 const str = "race a car";
 console.log(palindromestring(str));
